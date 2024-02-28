@@ -44,7 +44,7 @@ public class AppTest
         assertEquals("Buzz",fizzBuzz(5));
         assertEquals("Fizz",fizzBuzz(6));
         assertEquals("Buzz",fizzBuzz(10));
-        assertEquals("Invalid Number",fizzBuzz(0));
+        assertEquals("Invalid Number",fizzBuzz(12345));
 
     }
 }
