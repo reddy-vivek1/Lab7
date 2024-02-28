@@ -10,11 +10,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        int num;
         Scanner sc =new Scanner(System.in);
-        num=sc.nextInt();
-        int i;
-        for(i=1; i<=num; i++){
+        int num=sc.nextInt();
+        for(int i=1; i<=num; i++){
         String s = fizzBuzz(i);
         System.out.print(s + " ");
         }
