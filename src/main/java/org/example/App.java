@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.Scanner;
 
 /**
@@ -16,17 +15,18 @@ public class App
         num=sc.nextInt();
         int i;
         for(i=1; i<=num; i++){
-        fizzBuzz(i);
+        String s = fizzBuzz(i);
+        System.out.print(s + " ");
         }
 
     }
-    public static void fizzBuzz(int i){
+    public static String fizzBuzz(int i){
         if(i==3){
-            System.out.print("Fizz" + " ");
+            return "Fizz";
         }
         else if (i==5) {
-            System.out.print("Buzz"+ " ");
+            return "Buzz";
         }
-        else System.out.print(i + " ");
+        else return String.valueOf(i);
     }
 }
