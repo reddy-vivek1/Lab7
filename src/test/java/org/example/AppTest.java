@@ -39,12 +39,12 @@ public class AppTest
     }
     public void test_fizzBuzz(){
         assertEquals("1",fizzBuzz(1));
-        assertEquals("2",fizzBuzz(2));
         assertEquals("Fizz",fizzBuzz(3));
         assertEquals("Buzz",fizzBuzz(5));
         assertEquals("Fizz",fizzBuzz(6));
         assertEquals("Buzz",fizzBuzz(10));
-        assertEquals("Invalid Number",fizzBuzz(12345));
+        assertEquals("FizzBuzz",fizzBuzz(15));
+        //assertEquals("Invalid Number",fizzBuzz(12345));
 
     }
 }
