@@ -12,7 +12,7 @@ public class App
     {
         Scanner sc =new Scanner(System.in);
         int num=sc.nextInt();
-        if(num<1 && num>100){
+        if(num<1 || num>100){
             System.out.print("Invalid Input");
             System.exit(0);
         }
