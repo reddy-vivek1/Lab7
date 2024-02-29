@@ -10,15 +10,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        Scanner sc =new Scanner(System.in);
-        int num=sc.nextInt();
-        if(num<1 || num>100){
-            System.out.print("Invalid Input");
-            System.exit(0);
-        }
-        for(int i=1; i<=num; i++){
-        String s = fizzBuzz(i);
-        System.out.print(s + " ");
+        for(int i=1; i<=100; i++){
+            String s = fizzBuzz(i);
+            System.out.print(s + " ");
         }
 
     }
